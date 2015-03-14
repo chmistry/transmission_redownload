@@ -13,7 +13,7 @@ Works with:
 - Ubuntu 14.04 
 - Linux server 3.13.0-46-generic #79-Ubuntu SMP Tue Mar 10 20:06:50 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux 
 
-**How to run:** Transmission stores all current torrents in '/etc/transmission-debian/torrents' copy all torrent 
+**How to run:** Transmission stores all current torrents in '/etc/transmission-debian/torrents'. Copy all torrent 
 files to a temp dir and change ownership (chown) to the user who is going to run this script. 
 After successful running this script the tempdir with torrents can be deleted.
 
